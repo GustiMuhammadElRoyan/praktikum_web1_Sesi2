@@ -16,7 +16,6 @@
            font-size: 20px;
            text-align: center;
            background-color: black;
-           color: red;
         }
         .teks-merah {
             color: red;
@@ -29,6 +28,19 @@
         }
         div > div > p{
             font-weight: bold;
+        }
+        .subbagian {
+            font-size: 30px;
+        }
+
+        .subbagian.header {
+            color:blueviolet;
+        }
+        .subbagian#teks {
+            color: brown;
+        }
+        p:hover {
+            background-color: aqua;
         }
     </style>
 </head>
@@ -43,6 +55,11 @@
         <div>
             <p>Ini adalah paragraf kedua. </p>
         </div>
+    </div>
+
+    <div>
+        <div class="subbagian header">Bagian Header</div>
+        <p class="subbagian" id="teks">Ini adalah paragraf</p>
     </div>
 </body>
 </html>
