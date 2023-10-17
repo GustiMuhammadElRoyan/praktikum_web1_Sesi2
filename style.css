@@ -25,3 +25,21 @@ h1 {
     width: 300px;
     height: 200px;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+}
+
+.menu {
+    border: 1px solid #fff;
+    width: 900px;
+}
+
